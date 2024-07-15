@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WMS</string>
+    <string name="navigation_drawer_open">Navigasyon çekmecesini aç</string>
+    <string name="navigation_drawer_close">Navigasyon çekmecesini kapat</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigasyon başlığı</string>
+    <string name="action_settings">Ayarlar</string>
+
+    <string name="menu_giris">Ana Sayfa</string>
+    <string name="menu_transfer">Transfer</string>
+    <string name="menu_tasima">Taşıma</string>
+    <string name="menu_teknik">Teknik</string>
+    <string name="forgot_password">Şifremi unuttum</string>
+    <string name="login_button">Giriş yap</string>
+    <string name="username_hint">Kullanıcı adı</string>
+    <string name="password_hint">Şifre</string>
+    <string name="username_empty">Kullanıcı adınızı girin!</string>
+    <string name="password_empty">Şifrenizi girin!</string>
+</resources>
