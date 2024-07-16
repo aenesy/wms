@@ -43,4 +43,7 @@
                 android:src="@drawable/ic_logout" />
         </RelativeLayout>
     </com.google.android.material.navigation.NavigationView>
+
+
+
 </androidx.drawerlayout.widget.DrawerLayout>

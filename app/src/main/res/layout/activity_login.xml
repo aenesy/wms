@@ -26,6 +26,8 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
+
             >
 
 
@@ -35,6 +37,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="18dp"
                 android:background="@drawable/login_box"
+
+
                 android:hint="@string/username_hint"
                 android:inputType="text"
                 android:padding="16dp"

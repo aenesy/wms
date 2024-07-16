@@ -8,20 +8,20 @@
         <item
             android:id="@+id/nav_giris"
             android:icon="@drawable/ic_home"
-            android:title="Giriş" />
+            android:title="@string/menu_giris" />
         <item
             android:id="@+id/nav_home"
             android:icon="@android:drawable/ic_popup_sync"
-            android:title="Transfer" />
+            android:title="@string/menu_transfer" />
 
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_launcher"
-            android:title="Taşıma" />
+            android:title="@string/menu_tasima" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@android:drawable/ic_menu_manage"
-            android:title="Teknik" />
+            android:title="@string/menu_teknik" />
     </group>
 
 </menu>

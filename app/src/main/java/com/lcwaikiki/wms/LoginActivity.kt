@@ -23,6 +23,8 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val savedLanguage = getSavedLanguage()
+        setLocale(savedLanguage)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         binding.passwordInput.setOnEditorActionListener { _, actionId, event ->
             if (actionId == EditorInfo.IME_ACTION_DONE ||
@@ -35,8 +37,7 @@ class LoginActivity : AppCompatActivity() {
             }
         }
             // Apply saved language before setting content view
-        val savedLanguage = getSavedLanguage()
-        setLocale(savedLanguage)
+
 
         enableEdgeToEdge()
         setContentView(binding.root)

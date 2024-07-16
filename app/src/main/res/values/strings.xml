@@ -17,4 +17,9 @@
     <string name="password_hint">Şifre</string>
     <string name="username_empty">Kullanıcı adınızı girin!</string>
     <string name="password_empty">Şifrenizi girin!</string>
+    <string name="transfer">Transfer</string>
+    <string name="supply">İkmal</string>
+    <string name="storing">Depolama</string>
+    <string name="collecting">Toplama</string>
+    <string name="waiting_task">Bekleyen Toplam Görev</string>
 </resources>

@@ -16,5 +16,10 @@
     <string name="password_hint">Password</string>
     <string name="username_empty">Username can not be blank!</string>
     <string name="password_empty">Password can not be blank!</string>
+    <string name="transfer">Transfer</string>
+    <string name="supply">Supply</string>
+    <string name="storing">Storing</string>
+    <string name="collecting">Collecting</string>
+    <string name="waiting_task">Total Waiting Task</string>
 
 </resources>
