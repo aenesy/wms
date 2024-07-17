@@ -9,7 +9,7 @@
 
     <string name="menu_giris">Ana Sayfa</string>
     <string name="menu_transfer">Transfer</string>
-    <string name="menu_tasima">Taşıma</string>
+    <string name="menu_tasima">Ürün Alım</string>
     <string name="menu_teknik">Teknik</string>
     <string name="forgot_password">Şifremi unuttum</string>
     <string name="login_button">Giriş yap</string>
@@ -22,4 +22,5 @@
     <string name="storing">Depolama</string>
     <string name="collecting">Toplama</string>
     <string name="waiting_task">Bekleyen Toplam Görev</string>
+    <string name="supply_header">Ürün Alım İşlemleri</string>
 </resources>

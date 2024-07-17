@@ -30,7 +30,7 @@ class LoginActivity : AppCompatActivity() {
             if (actionId == EditorInfo.IME_ACTION_DONE ||
                 (event != null && event.keyCode == KeyEvent.KEYCODE_ENTER && event.action == KeyEvent.ACTION_DOWN)
             ) {
-                login_button_clk()
+                login()
                 true
             } else {
                 false
@@ -100,8 +100,8 @@ class LoginActivity : AppCompatActivity() {
         val sharedPref = getSharedPreferences("AppSettings", Context.MODE_PRIVATE)
         return sharedPref.getString("SelectedLanguage", "tr") ?: "tr"
     }
-
-    fun login_button_clk() {
+    fun login_button_clk(view:View) {login()}
+    fun login() {
         val usernameInput= binding.usernameInput
         val passwordInput= binding.passwordInput
         val username = usernameInput.text?.toString() ?: ""

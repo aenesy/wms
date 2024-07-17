@@ -10,14 +10,13 @@
             android:icon="@drawable/ic_home"
             android:title="@string/menu_giris" />
         <item
-            android:id="@+id/nav_home"
-            android:icon="@android:drawable/ic_popup_sync"
-            android:title="@string/menu_transfer" />
-
-        <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_launcher"
             android:title="@string/menu_tasima" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_popup_sync"
+            android:title="@string/menu_transfer" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@android:drawable/ic_menu_manage"
