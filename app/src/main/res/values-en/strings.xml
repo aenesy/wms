@@ -22,5 +22,7 @@
     <string name="collecting">Collecting</string>
     <string name="waiting_task">Total Waiting Task</string>
     <string name="supply_header">Supply Operations</string>
+    <string name="back">Back</string>
+    <string name="gonder">Complete</string>
 
 </resources>

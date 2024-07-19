@@ -23,4 +23,6 @@
     <string name="collecting">Toplama</string>
     <string name="waiting_task">Bekleyen Toplam Görev</string>
     <string name="supply_header">Ürün Alım İşlemleri</string>
+    <string name="back">Geri Dön</string>
+    <string name="gonder">Koli Gönder</string>
 </resources>

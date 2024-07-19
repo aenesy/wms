@@ -8,8 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.lcwaikiki.wms.R
 
 class SupplyTable(
-    private val items: List<SupplyItem>,
-    private val onItemClick: (SupplyItem) -> Unit
+    private var items: List<SupplyItem>
 ) : RecyclerView.Adapter<SupplyTable.ViewHolder>() {
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
@@ -28,17 +27,15 @@ class SupplyTable(
         val item = items[position]
         holder.textBarkod.text = item.barkod
         holder.textUniteBarkod.text = item.uniteBarkod
-
-        // Okutulan değerini SupplyActivity'deki okutulansayaciMap'inden al
-        val okutulansayaci = (holder.itemView.context as? SupplyActivity)?.okutulansayaciMap?.get("${item.barkod}:${item.uniteBarkod}") ?: 0
-        holder.textOkutulan.text = okutulansayaci.toString()
-
-        holder.itemView.setOnClickListener {
-            onItemClick(item)
-        }
+        holder.textOkutulan.text = item.okutulan.toString()
     }
 
     override fun getItemCount() = items.size
+
+    fun updateItems(newItems: List<SupplyItem>) {
+        items = newItems
+        notifyDataSetChanged()
+    }
 }
 
-data class SupplyItem(val barkod: String, val uniteBarkod: String)
+data class SupplyItem(val barkod: String, val uniteBarkod: String, var okutulan: Int = 1)
